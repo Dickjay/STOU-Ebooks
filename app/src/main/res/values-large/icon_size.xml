@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Ebook -->
+    <dimen name="margin_top_shelf">56dp</dimen>
+    <dimen name="Tab_bottom">26dp</dimen>
+    <dimen name="tab_indicator_layout_height">52dp</dimen>
+    <dimen name="tab_indicator_icon_width">26dp</dimen>
+    <dimen name="icon_head">48dp</dimen>
+    <dimen name="icon_padding">5dp</dimen>
+    <dimen name="ebook_rt_head_hight">64dp</dimen>
+    <dimen name="typebar_padding_top">2dp</dimen>
+    <dimen name="typebar_padding_right">20dp</dimen>
+    <dimen name="img_ebook_cover_width">86dp</dimen>
+    <dimen name="img_ebook_cover_hight">114dp</dimen>
+    <dimen name="img_ebook_shadow_width">88dp</dimen>
+    <dimen name="img_ebook_shadow_hight">116dp</dimen>
+    <dimen name="img_publisher_cover_width">120dp</dimen>
+    <dimen name="img_publisher_cover_hight">88dp</dimen>
+    <dimen name="img_publisher_shadow_width">122dp</dimen>
+    <dimen name="img_publisher_shadow_hight">90dp</dimen>
+    <dimen name="star_hight_24">25dp</dimen>
+    <dimen name="img_ebookcategory_cover_width">53dp</dimen>
+    <dimen name="img_ebookcategory_cover_hight">74dp</dimen>
+    <dimen name="img_ebookcategory_shadow_width">55dp</dimen>
+    <dimen name="img_ebookcategory_shadow_hight">76dp</dimen>
+    <!-- Buy -->
+    <dimen name="btn_buy_width">192dp</dimen>
+    <dimen name="btn_buy_hight">42dp</dimen>
+    <dimen name="btn_publisher_width">120dp</dimen>
+
+    <!-- dialoglogin -->
+    <dimen name="img_publisher_dialogcover_width">80dp</dimen>
+    <dimen name="img_publisher_dialogcover_hight">58dp</dimen>
+    <dimen name="img_publisher_dialogshadow_width">82dp</dimen>
+    <dimen name="img_publisher_dialogshadow_hight">60dp</dimen>
+    <dimen name="dialoglogin_title_height">48dp</dimen>
+    <dimen name="dialoglogin_marginTop">5dp</dimen>
+    <dimen name="dialoglogin_edittext_marginTop">20dp</dimen>
+    <dimen name="dialoglogin_edittext_marginBottom">16dp</dimen>
+    <dimen name="dialoglogin_marginRight">16dp</dimen>
+    <dimen name="dialoglogin_btn_width">115dp</dimen>
+    <dimen name="dialoglogin_btn_height">35dp</dimen>
+    <dimen name="dialoglogin_padding">10dp</dimen>
+    <dimen name="dialoglogin_imaprofile">64dp</dimen>
+    <dimen name="scroll_detail">130dp</dimen>
+    <!-- Hori listview -->
+    <dimen name="Hori_hight">130dp</dimen>
+
+    <!-- publisher detail -->
+    <dimen name="detailpublisher_linear_height">204dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_height">64dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_width">116dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_margintop">16dp</dimen>
+    <dimen name="detailpublisher_marginLeft">16dp</dimen>
+    <dimen name="detailpublisher_marginRight">8dp</dimen>
+    <dimen name="detailpublisher_marginBottom">16dp</dimen>
+    <dimen name="detailpublisher_icon_marginTop">16dp</dimen>
+    <dimen name="detailpublisher_icon_tdf_heightwidth">51dp</dimen>
+    <dimen name="abs_layout_marginRight">120dp</dimen>
+    <dimen name="abs_layoutpublisher_marginRight">200dp</dimen>
+    <dimen name="category_layout_width">240dp</dimen>
+    <dimen name="category_layout_marginLeft">8dp</dimen>
+    <dimen name="category_layout_marginRight">2dp</dimen>
+    <dimen name="category_linear_cover_width">40dp</dimen>
+    <dimen name="category_linear_cover_hight">48dp</dimen>
+
+</resources>

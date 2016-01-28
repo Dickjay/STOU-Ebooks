@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteBackground">
+
+    <RelativeLayout
+        android:id="@+id/rt_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorPrimary"
+                    app:contentInsetLeft="0dp"
+                    app:contentInsetStart="0dp"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/Theme.MyMaterial">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:weightSum="7">
+
+                            <com.porar.ebooks.widget.AdjustableImageView
+                                android:id="@+id/navigation_imageview"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="35dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/navigation_back" />
+
+                            <com.porar.ebooks.widget.AdjustableImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="10dp"
+                                android:scaleType="centerCrop" />
+
+                            <com.porar.ebooks.widget.AdjustableImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:adjustViewBounds="true"
+                                android:padding="25dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/nav_logo_new2x" />
+
+                            <com.porar.ebooks.widget.AdjustableImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="10dp"
+                                android:scaleType="centerCrop" />
+
+                            <com.porar.ebooks.widget.AdjustableImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="35dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_action_search"
+                                android:visibility="invisible" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="7">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.porar.ebooks.widget.AdjustableImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="90dp"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/banner_stou" />
+
+                                <com.porar.ebooks.widget.AdjustableImageView
+                                    android:id="@+id/search_imageview"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_toLeftOf="@+id/refresh_imageview"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/icon_search" />
+
+                                <com.porar.ebooks.widget.AdjustableImageView
+                                    android:id="@+id/refresh_imageview"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dp"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/icon_refresh" />
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:weightSum="7">
+
+                            <android.support.design.widget.TabLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/tabs_layout"
+                                android:layout_width="fill_parent"
+                                android:layout_height="60dp"
+                                app:tabGravity="center"
+                                app:tabIndicatorColor="@color/textColorSelected"
+                                app:tabMode="fixed"
+                                app:tabSelectedTextColor="@color/textColorSelected"
+                                app:tabTextAppearance="@style/MyTabLayoutTextAppearanceSize"
+                                app:tabTextColor="@color/textColorPrimary" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.Toolbar>
+            </android.support.design.widget.AppBarLayout>
+
+            <RelativeLayout
+                android:id="@+id/ebook_rt_dummyscreen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/transparent"></RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ebook_linear_fortabview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ebook_rt_head"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical"></LinearLayout>
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <FrameLayout
+                    android:id="@+id/frame_public_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></FrameLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </android.support.design.widget.CoordinatorLayout>
+    </RelativeLayout>
+</LinearLayout>

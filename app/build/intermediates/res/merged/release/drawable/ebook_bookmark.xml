@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true"><bitmap android:src="@drawable/ebook_bookmark_gray" />
+    </item>
+    <item android:state_enabled="false"><bitmap android:src="@drawable/icon_bookmark_red" />
+    </item>
+
+</selector><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/drawable/ebook_bookmark.xml -->

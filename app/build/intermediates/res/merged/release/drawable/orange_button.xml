@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/btn_addto_grey" android:state_pressed="true"><shape>
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape></item>
+    <item android:drawable="@drawable/bg_btn_addshelf_stou" android:state_enabled="true"><shape>
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape></item>
+    <item android:drawable="@drawable/btn_addto_grey" android:state_enabled="false"><shape>
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape></item>
+
+</selector><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/drawable/orange_button.xml -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="smaller">18dp</dimen>
+    <dimen name="small">22dp</dimen>
+    <dimen name="normal">27dp</dimen>
+    <dimen name="big">32dp</dimen>
+    <dimen name="big_title">40dp</dimen>
+    
+     <string name="size_pointer">25</string>
+</resources>

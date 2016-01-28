@@ -1,0 +1,11 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false" >
+
+    <translate
+        android:duration="700"
+        android:fromXDelta="0%"
+        android:fromYDelta="0%"
+        android:toXDelta="100%"
+        android:toYDelta="0%" />
+
+</set><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/anim/right_to_left.xml -->

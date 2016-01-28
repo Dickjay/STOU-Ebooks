@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="5dp"
+        android:color="#cbcbcb" />
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+
+    <corners
+        android:bottomLeftRadius="7dp"
+        android:bottomRightRadius="7dp"
+        android:topLeftRadius="7dp"
+        android:topRightRadius="7dp" />
+
+    <solid android:color="#000000" />
+
+</shape><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/drawable/border_black2.xml -->

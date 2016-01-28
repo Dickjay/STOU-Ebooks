@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.porar.ebooks.stou.test">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.porar.ebooks.stou"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.porar.ebooks.stou"/>
+</manifest>

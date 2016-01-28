@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="radio_button_selected_color">@color/colorPrimary</color>
+	<color name="radio_button_unselected_color">@android:color/transparent</color>
+	<!--color for materail design-->
+
+	<color name="colorHighlight">#2fc608</color>
+	<color name="colorPrimary">#218307</color>
+	<color name="colorPrimaryDark">#134b04</color>
+	<color name="colorAccent">#134b04</color>
+	<color name="textColorPrimary">#ffffff</color>
+	<color name="textColorSelected">#B68D25</color>
+	<!---->
+
+	<color name="background_main_mode">#F1F2F2</color>
+
+	<color name="orange_stou">#BE912D</color>
+	<color name="red_dark_stou">#D6B40404</color>
+	<color name="red_stou">#FFFF0000</color>
+	<color name="tabMedium">#2B2B2B</color>
+	<color name="tabDark">#000000</color>
+	<color name="tabTransparent">#10ffffff</color>
+	<color name="WhiteBackground">#ffffff</color>
+	<color name="green_stou">#218307</color>
+	<color name="grey_stou">#dde2e2</color>
+	<color name="dark_gray">#767676</color>
+	<color name="white_transaent">#c8dde2e2</color>
+
+	<!--  true  -->
+	<drawable name="red">#FFFF0000</drawable>
+	<drawable name="white">#FFFFFFFF</drawable>
+	<drawable name="black">#FF000000</drawable>
+	<drawable name="green">#FF91C701</drawable>
+	<drawable name="dark_gray">#66000000</drawable>
+	<drawable name="light_gray">#FFD4D4D4</drawable>
+	
+	<drawable name="colortransparent">#00000000</drawable>
+	<drawable name="black_transparent_100">#64000000</drawable>
+	<drawable name="black_transparent_200">#C8000000</drawable>
+	
+	 <color name="blue">#0eaec0</color>
+
+	 
+</resources>

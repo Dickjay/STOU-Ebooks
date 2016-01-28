@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_default"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top_rt_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/top_linear_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ebook_rt_banner_hight"
+            android:background="@drawable/bg_publisher_dark2x"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/top_rt_banner_top1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/top_layout_marginRight"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/top_textview_name_top1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="name1"
+                    android:textColor="@color/WhiteBackground"
+                    android:textSize="@dimen/normal" />
+
+                <RelativeLayout
+                    android:id="@+id/top_rt_cover_top1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/top_textview_name_top1"
+                    android:layout_marginLeft="@dimen/top_layout_marginLeft"
+                    android:layout_marginTop="@dimen/top_layout_marginTop" >
+
+                    <ImageView
+                        android:id="@+id/top_image_shadow_top1"
+                        android:layout_width="@dimen/img_ebook_shadow_width"
+                        android:layout_height="@dimen/img_ebook_shadow_hight"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/top_layout_marginTop"
+                        android:background="#66000000"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/top_image_cover_top1"
+                        android:layout_width="@dimen/img_ebook_cover_width"
+                        android:layout_height="@dimen/img_ebook_cover_hight"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/image_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rank1" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/top_textview_name_top1"
+                    android:layout_marginLeft="@dimen/top_layout_marginLeft"
+                    android:layout_marginTop="@dimen/top_layout_marginTop"
+                    android:layout_toRightOf="@+id/top_rt_cover_top1"
+                    android:orientation="vertical" >
+
+                    <RatingBar
+                        android:id="@+id/top_ratingbar_top1"
+                        style="@style/customRatingBar16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:stepSize="0.5" />
+
+                    <TextView
+                        android:id="@+id/top_textview_pagesize_top1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="page size"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                    <TextView
+                        android:id="@+id/top_textview_writter_top1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="writter"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                    <RelativeLayout
+                        android:id="@+id/top_rt_publisher_top1"
+                        android:layout_width="115dp"
+                        android:layout_height="65dp" >
+
+                        <ImageView
+                            android:id="@+id/top_img_bg_publisher_top1"
+                            android:layout_width="115dp"
+                            android:layout_height="65dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bg_publisher_logo" />
+
+                        <ImageView
+                            android:id="@+id/top_img_publisher_top1"
+                            android:layout_width="115dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cover_not_available2x" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/top_textview_publosher_top1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="publisher"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/top_rt_banner_top2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/top_layout_marginRight"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/top_textview_name_top2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="name1"
+                    android:textColor="@color/WhiteBackground"
+                    android:textSize="@dimen/normal" />
+
+                <RelativeLayout
+                    android:id="@+id/top_rt_cover_top2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/top_textview_name_top2"
+                    android:layout_marginLeft="@dimen/top_layout_marginLeft"
+                    android:layout_marginTop="@dimen/top_layout_marginTop" >
+
+                    <ImageView
+                        android:id="@+id/top_image_shadow_top2"
+                        android:layout_width="@dimen/img_ebook_shadow_width"
+                        android:layout_height="@dimen/img_ebook_shadow_hight"
+                        android:layout_centerInParent="true"
+                        android:background="#66000000"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/top_image_cover_top2"
+                        android:layout_width="@dimen/img_ebook_cover_width"
+                        android:layout_height="@dimen/img_ebook_cover_hight"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rank2" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/top_textview_name_top2"
+                    android:layout_marginLeft="@dimen/top_layout_marginLeft"
+                    android:layout_marginTop="@dimen/top_layout_marginTop"
+                    android:layout_toRightOf="@+id/top_rt_cover_top2"
+                    android:orientation="vertical" >
+
+                    <RatingBar
+                        android:id="@+id/top_ratingbar_top2"
+                        style="@style/customRatingBar16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:stepSize="0.5" />
+
+                    <TextView
+                        android:id="@+id/top_textview_pagesize_top2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="page size"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                    <TextView
+                        android:id="@+id/top_textview_writter_top2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="writter"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                    <RelativeLayout
+                        android:id="@+id/top_rt_publisher_top2"
+                        android:layout_width="115dp"
+                        android:layout_height="65dp" >
+
+                        <ImageView
+                            android:id="@+id/top_img_bg_publisher_top2"
+                            android:layout_width="115dp"
+                            android:layout_height="65dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bg_publisher_logo" />
+
+                        <ImageView
+                            android:id="@+id/top_img_publisher_top2"
+                            android:layout_width="115dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cover_not_available2x" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/top_textview_publosher_top2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="publisher"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/top_rt_banner_top3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/top_textview_name_top3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="name1"
+                    android:textColor="@color/WhiteBackground"
+                    android:textSize="@dimen/normal" />
+
+                <RelativeLayout
+                    android:id="@+id/top_rt_cover_top3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/top_textview_name_top3"
+                    android:layout_marginLeft="@dimen/top_layout_marginLeft"
+                    android:layout_marginTop="@dimen/top_layout_marginTop" >
+
+                    <ImageView
+                        android:id="@+id/top_image_shadow_top3"
+                        android:layout_width="@dimen/img_ebook_shadow_width"
+                        android:layout_height="@dimen/img_ebook_shadow_hight"
+                        android:layout_centerInParent="true"
+                        android:background="#66000000"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/top_image_cover_top3"
+                        android:layout_width="@dimen/img_ebook_cover_width"
+                        android:layout_height="@dimen/img_ebook_cover_hight"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rank3" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/top_textview_name_top3"
+                    android:layout_marginLeft="@dimen/top_layout_marginLeft"
+                    android:layout_marginTop="@dimen/top_layout_marginTop"
+                    android:layout_toRightOf="@+id/top_rt_cover_top3"
+                    android:orientation="vertical" >
+
+                    <RatingBar
+                        android:id="@+id/top_ratingbar_top3"
+                        style="@style/customRatingBar16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:stepSize="0.5" />
+
+                    <TextView
+                        android:id="@+id/top_textview_pagesize_top3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="page size"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                    <TextView
+                        android:id="@+id/top_textview_writter_top3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="writter"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                    <RelativeLayout
+                        android:id="@+id/top_rt_publisher_top3"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/top_img_bg_publisher_top3"
+                            android:layout_width="115dp"
+                            android:layout_height="65dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bg_publisher_logo" />
+
+                        <ImageView
+                            android:id="@+id/top_img_publisher_top3"
+                            android:layout_width="115dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cover_not_available2x" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/top_textview_publosher_top3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="publisher"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/top_rt_head"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ebook_rt_head_hight"
+            android:layout_below="@id/top_linear_banner"
+            android:background="@drawable/leather_bar2" >
+
+            <LinearLayout
+                android:id="@+id/top_linear_head_tool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/top_linear_head_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/top_image_refresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_image_head_tool_hight"
+                        android:src="@drawable/icon_refresh2x" />
+
+                    <TextView
+                        android:id="@+id/top_txt_refresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Refresh"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/top_linear_head_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/ebook_linear_head_tool_marginLeft"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/top_image_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_image_head_tool_hight"
+                        android:src="@drawable/icon_lbar_search2x" />
+
+                    <TextView
+                        android:id="@+id/top_txt_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/top_linear_head_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/ebook_linear_head_tool_marginLeft"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/top_image_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_image_head_tool_hight"
+                        android:src="@drawable/icon_settings2x" />
+
+                    <TextView
+                        android:id="@+id/top_txt_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Setting"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/top_linear_head_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/top_btn_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_btn_category_hight"
+                        android:height="@dimen/ebook_btn_category_hight"
+                        android:minWidth="@dimen/ebook_btn_category_minwidth"
+                        android:text="@string/allbook"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+
+                    <Spinner
+                        android:id="@+id/top_spinner_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/top_btn_category"
+                        android:layout_alignLeft="@+id/top_btn_category"
+                        android:layout_alignRight="@+id/top_btn_category"
+                        android:layout_alignTop="@+id/top_btn_category"
+                        android:minWidth="@dimen/ebook_spinner_minwidth"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/top_btn_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_btn_type_hight"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:height="@dimen/ebook_btn_type_hight"
+                        android:minWidth="@dimen/ebook_btn_type_minwidth"
+                        android:text="@string/top_download"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/top_btn_period"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_btn_type_hight"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:height="@dimen/ebook_btn_type_hight"
+                        android:minWidth="@dimen/ebook_btn_type_minwidth"
+                        android:text="@string/top_day"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/top_rt_pageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top_rt_head"
+            android:gravity="center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/ebook_rt_pageview_marginTop"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/top_img_shelf1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop1"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+
+                <ImageView
+                    android:id="@+id/top_img_shelf2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop234"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+
+                <ImageView
+                    android:id="@+id/top_img_shelf3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop234"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+
+                <ImageView
+                    android:id="@+id/top_img_shelf4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop234"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+            </LinearLayout>
+
+            <com.porar.ebook.control.MyViewPager
+                android:id="@+id/top_myViewPager1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </com.porar.ebook.control.MyViewPager>
+
+            <LinearLayout
+                android:id="@+id/top_linear_dotpage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/top_myViewPager1"
+                android:layout_marginBottom="@dimen/ebook_linear_dotpage_marginBottom"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/top_rt_dummyscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/transparent" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/top_linear_fortabview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/top_rt_head"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

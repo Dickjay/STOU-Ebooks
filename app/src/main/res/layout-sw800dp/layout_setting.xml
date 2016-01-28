@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_button"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/setting_rt_setting"
+        android:layout_width="@dimen/search_rt_search_width"
+        android:layout_height="@dimen/lv_dialog_search_hight"
+        android:background="@color/tabMedium"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/setting_rt_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/top_layout_marginLeft"
+            android:background="@drawable/bg_grayline_repeat"
+            android:orientation="vertical"
+            android:padding="@dimen/top_layout_marginTop" >
+
+            <TextView
+                android:id="@+id/setting_text_bg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/background_title1"
+                android:textColor="@color/WhiteBackground"
+                android:textSize="@dimen/normal" />
+
+            <TextView
+                android:id="@+id/setting_text_bg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setting_text_bg1"
+                android:text="@string/background_title2"
+                android:textSize="@dimen/small" />
+
+            <ImageView
+                android:id="@+id/setting_imageview_bg"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border_list_subcatagory"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_main_default_ss" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setting_rt_shelf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/top_layout_marginTop"
+            android:layout_marginTop="@dimen/dialoglogin_edittext_marginTop"
+            android:background="@drawable/bg_grayline_repeat"
+            android:orientation="vertical"
+            android:padding="@dimen/top_layout_marginTop" >
+
+            <TextView
+                android:id="@+id/setting_text_shelf1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Shelf_title1"
+                android:textColor="@color/WhiteBackground"
+                android:textSize="@dimen/normal" />
+
+            <TextView
+                android:id="@+id/setting_text_shelf2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setting_text_shelf1"
+                android:text="@string/Shelf_title2"
+                android:textSize="@dimen/small" />
+
+            <ImageView
+                android:id="@+id/setting_imageview_shelf"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border_list_subcatagory"
+                android:scaleType="matrix"
+                android:src="@drawable/shelf_glass" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

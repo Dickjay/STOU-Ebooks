@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-b1549cf44f13f32c9fd931c5c9ad4594da6be850.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\libs\twitter4j-core-3.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="fd32f6a458405bcdd77b68d0c6099a65203da009">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\twitter4j-core-3.0.3-612f6a04ccfaa18250d11f0dbdfa1a022602441a.jar" />
+    </item>
+    <item
+        jar="D:\Android_SDK\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\support-annotations-22.2.1-9c5b9d982ff3589eb5ee96ebad967f7a6b406958.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\info.hoang8f\android-segmented\1.0.6\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="692a913dff3246e0cc5369c2508f5970ecfeca01">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-e96c600266aea36f5516e60d486095c92379f502.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\libs\signpost-core-1.2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="47d92007ca13efd47efad1af94d842ecb5066310">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\signpost-core-1.2.1.1-73e71e824fba0ca221da40441f13733af0714b0d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-a05eeed54360bf09061352a5fb3a0ee03e0a825f.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\libs\twitter4j-core-3.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="fd32f6a458405bcdd77b68d0c6099a65203da009">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\twitter4j-core-3.0.3-9e0579c394b0cb57192a108248dd6dc879f9d1a5.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\libs\signpost-commonshttp4-1.2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1e6380adcb5808bfe13a934a2f35bfeed1adbc49">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.1-8f8d80eeb1e6af31f2f23cd118205ab43e2d2520.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-c79a17a1ceb077626dee5287fa63ca870165cb29.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-c849b20eae2d944b9d60c84b7c9046a20608809a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Prapagorn\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\library-2.4.0-dda04ab401a46c284f437f9a99c4351ee9bed795.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\libs\signpost-commonshttp4-1.2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1e6380adcb5808bfe13a934a2f35bfeed1adbc49">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\signpost-commonshttp4-1.2.1.1-06eb41dd018500811b63c8fae295db14ad16ce36.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\internal_impl-22.2.1-1264eb16ca3412430b60d5cd9bb6f5583acf77eb.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\info.hoang8f\android-segmented\1.0.6\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="692a913dff3246e0cc5369c2508f5970ecfeca01">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-70908d1221a6d080b06c41edcb746efa5559f50f.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-d8bec44d577e70bd0c8ccec5ab56b0e4aa1983f7.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-6227fa4b82cd489fde4cae2e3ec1cda59caf4f6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Prapagorn\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\picasso-2.4.0-d81c0607f6803ab19363ebf0c5a986575facad06.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-7046eb6e31bf12c8c35e8109390a03a71ad7b55b.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\libs\signpost-jetty6-1.2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="278d98035ed45da35eaeac7ebd22d5fc19374187">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\signpost-jetty6-1.2.1.1-7807f379074b9e4fa26d72aab50624bcac94577e.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\libs\twitter4j-media-support-3.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3e7ec610dee15e351443e0c033aa0cdce2fa8778">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\twitter4j-media-support-3.0.3-603c4e0ffea1148673d7ae6f9d97c1a6d7aa0d25.jar" />
+    </item>
+    <item
+        jar="C:\Users\Prapagorn\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\gson-2.3-8922e82ce54e421667cec48e81266e947fd7ade3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Prapagorn\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.2.0\cb20062e14c523637b7643295418097b48cccec2\okhttp-urlconnection-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\okhttp-urlconnection-2.2.0-a5463ca33ef7f538fd2130c2951c7ae59b60e287.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\libs\twitter4j-media-support-3.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3e7ec610dee15e351443e0c033aa0cdce2fa8778">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\twitter4j-media-support-3.0.3-da2968a31c8f3ff90d9dc7500999ffb4895d35b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Prapagorn\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\okhttp-2.2.0-ee294bed84d39265cd642cacb6c903df78debc98.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-6a565cc9d965f23689a029ecde8e0094f1c62dd8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Prapagorn\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\bolts-android-1.2.0-8914edaef0a019a6f75369edd6260f59dec72046.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-5c8c28b8ddb4f30590d4c66b1ef961ae23de1bec.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-aac39165316f770c661e3fd657af4ad2ef5173c8.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-866e85e3c8d94bdad8dbf95b464290bb6fb77b73.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-a3501551fb28f5206b403d656530cfd4970cf4b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Prapagorn\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\okio-1.2.0-137a2a201b18fbb77c02e89b1f0cc2738037de77.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\classes-6796f8573cd252162aaeb9140ba769420cb3c50d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-6e765390b9b96def05a8a2d6a633949f9ea3cd9a.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\classes-fe4f3bf5a7348711e373936f0a91389afcac37ce.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\libs\signpost-jetty6-1.2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="278d98035ed45da35eaeac7ebd22d5fc19374187">
+        <dex dex="D:\AndroidStudio_WorkSpace\Workspace STOU\PROJECT-STOU - VersionCode-16and VersionName-2.1.3\app\build\intermediates\pre-dexed\release\signpost-jetty6-1.2.1.1-85b718379551b198cdd6a81c13c86396d9e8ca10.jar" />
+    </item>
+    <item
+        jar="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\libs\signpost-core-1.2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="47d92007ca13efd47efad1af94d842ecb5066310">
+        <dex dex="D:\Android.APK&amp;BackUp\STOU\STOU.Ebook.BackUp\PROJECT-STOU - VersionCode-13 and VersionName-2.1.1\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.1-c4b083ddc891831e4f4e911fe490a391de792afe.jar" />
+    </item>
+
+</items>

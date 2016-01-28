@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+android:id/background"
+          android:drawable="@drawable/star16_full_empty" />
+    <item android:id="@+android:id/secondaryProgress"
+          android:drawable="@drawable/star16_full_empty" />
+    <item android:id="@+android:id/progress"
+          android:drawable="@drawable/star16_full_filled" />
+</layer-list><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout/star16.xml -->

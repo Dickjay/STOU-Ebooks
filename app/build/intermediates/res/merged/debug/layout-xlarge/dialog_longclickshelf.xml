@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_default_ss"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+             android:layout_width="@dimen/dialoglogin_layout_width"
+        android:layout_height="@dimen/dialoglogin_layout_height" 
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/dialog_longclick_rt_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/top_layout_marginTop"
+                android:layout_marginRight="@dimen/top_layout_marginTop" >
+
+                <TextView
+                    android:id="@+id/dialog_longclick_text_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="name"
+                    android:textColor="@color/tabDark"
+                    android:textSize="@dimen/big" />
+
+                <ImageView
+                    android:id="@+id/dialog_longclick_image_cover"
+                    android:layout_width="@dimen/img_ebook_cover_width"
+                    android:layout_height="@dimen/img_ebook_cover_hight"
+                    android:layout_below="@+id/dialog_longclick_text_title"
+                    android:src="@drawable/cover_not_available2x" />
+
+                <RelativeLayout
+                    android:id="@+id/dialog_longclick_rt_covers_textdetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dialog_longclick_text_title"
+                    android:layout_toRightOf="@+id/dialog_longclick_image_cover"
+                    android:paddingLeft="20dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/dialog_longclick_rt_covers_ratingstar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RatingBar
+                            android:id="@+id/dialog_longclick_ratingStar"
+                            style="@style/customRatingBar24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:numStars="5"
+                            android:paddingTop="5dp"
+                            android:rating="0.0"
+                            android:stepSize="0.5" />
+
+                        <TextView
+                            android:id="@+id/dialog_longclick_text_count_comment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/dialog_longclick_ratingStar"
+                            android:text=" 0 Comments"
+                            android:textSize="@dimen/normal" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/dialog_longclick_rt_covers_datetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dialog_longclick_rt_covers_ratingstar" >
+
+                        <TextView
+                            android:id="@+id/dialog_longclick_text_datetime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:textSize="@dimen/normal" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/dialog_longclick_rt_covers_pageandsize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dialog_longclick_rt_covers_datetime" >
+
+                        <TextView
+                            android:id="@+id/dialog_longclick_text_page"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="199 Pages"
+                            android:textSize="@dimen/normal" />
+
+                        <TextView
+                            android:id="@+id/dialog_longclick_text_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/dialog_longclick_text_page"
+                            android:text="9.99 MB"
+                            android:textSize="@dimen/normal" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/dialog_longclick_rt_covers_price_writers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dialog_longclick_rt_covers_pageandsize" >
+
+                        <TextView
+                            android:id="@+id/dialog_longclick_text_writers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="ebooks.in.th"
+                            android:textSize="@dimen/normal" />
+
+                        <TextView
+                            android:id="@+id/dialog_longclick_text_price_bth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dialog_longclick_text_writers"
+                            android:text="199 บาท"
+                            android:textColor="#FF2222"
+                            android:textSize="@dimen/normal" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/dialog_longclick_linargg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dialog_longclick_rt_covers_textdetail"
+                    android:layout_marginTop="@dimen/top_layout_marginTop"
+                    android:gravity="center_vertical|bottom" >
+
+                    <ImageView
+                        android:id="@+id/dialog_longclick_image_cover2"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/cover_not_available2x" />
+
+                    <ImageView
+                        android:id="@+id/dialog_longclick_image_cover3"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="@dimen/top_layout_marginLeft"
+                        android:src="@drawable/cover_not_available2x" />
+
+                    <RelativeLayout
+                        android:id="@+id/dialog_longclick_rt_covers_publisher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_publisher_ipad2x"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp" >
+
+                        <ImageView
+                            android:id="@+id/dialog_longclick_img_bg_publisher"
+                            android:layout_width="115dp"
+                            android:layout_height="65dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bg_publisher_logo" />
+
+                        <ImageView
+                            android:id="@+id/dialog_longclick_img_publisher"
+                            android:layout_width="115dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cover_not_available2x" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/dialog_longclick_img_bg_publisher"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/dialog_longclick_text_publishername"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:text="Publisher"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/normal" />
+
+                            <TextView
+                                android:id="@+id/dialog_longclick_text_otherbook"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/other_book"
+                                android:textSize="@dimen/small" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/image_logo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/arrow_grey2x" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dialog_longclick_rt_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/scroll_detail"
+                    android:layout_below="@+id/dialog_longclick_linargg"
+                    android:layout_marginTop="@dimen/top_layout_marginTop" >
+
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/dialog_longclick_text_descriptions"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="description"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/normal" />
+                        </LinearLayout>
+                    </ScrollView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dialog_longclick_rt_commentview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dialog_longclick_rt_description"
+                    android:layout_marginTop="@dimen/top_layout_marginTop" >
+
+                    <TextView
+                        android:id="@+id/dialog_longclick_text_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 0 Comments"
+                        android:textSize="@dimen/normal" />
+
+                    <ImageView
+                        android:id="@+id/dialog_longclick_image_linegrey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dialog_longclick_text_comment"
+                        android:background="@drawable/bg_grayline_repeat" />
+
+                    <com.porar.ebook.control.MyViewPager
+                        android:id="@+id/dialog_longclick_myViewPager_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_spinner_minwidth"
+                        android:layout_below="@+id/dialog_longclick_image_linegrey" >
+                    </com.porar.ebook.control.MyViewPager>
+
+                    <LinearLayout
+                        android:id="@+id/dialog_longclick_linear_dotpage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/dialog_longclick_myViewPager_comment"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dialog_longclick_rt_commentview"
+                    android:gravity="right" >
+
+                    <ImageView
+                        android:id="@+id/dialog_longclick_image_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/top_layout_marginRight"
+                        android:src="@drawable/icon_facebook2x" />
+
+                    <ImageView
+                        android:id="@+id/dialog_longclick_image_favorite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/top_layout_marginRight"
+                        android:src="@drawable/icon_favorites2x" />
+
+                    <ImageView
+                        android:id="@+id/dialog_longclick_image_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_dark_comment2x" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-xlarge/dialog_longclickshelf.xml -->

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_201">ไม่พบรหัสนักศึกษาของท่าน</string>
+    <string name="error_202">ไม่พบรหัสนักศึกษาของท่าน</string>
+    <string name="error_300">รหัสผ่านไม่ถูกต้อง กรุณากรอกรหัสผ่านใหม่อีกครั้ง</string>
+    <string name="error_400">ไม่มีอีเมล์ของท่านในระบบ กรุณาองใหม่อีกครั้ง</string>
+    <string name="error_500">ไม่สามารถเข้าใช้งานได้\tท่านใช้อุปกรณ์เกินที่กำหนด\nกรุณาออกจากอุปกรณ์ที่ไม่ใช้งาน</string>
+    <string name="default_100">ไม่สามารถเข้าใช้งานได้\tท่านใช้อุปกรณ์เกินที่กำหนด\nกรุณาออกจากอุปกรณ์ที่ไม่ใช้งาน</string>
+
+    <string name="student_id">รหัสนักศึกษา</string>
+    <string name="read_free">อ่านฟรี</string>
+    <string name="version_app">Version 2.1.4</string>
+
+    <string name="title_doc">ประมวลสาระ</string>
+    <string name="title_exe">แนวการศึกษา</string>
+    <string name="title_sup">Supplement</string>
+
+    <string name="title_bac_doc">เอกสารการสอน</string>
+    <string name="title_bac_exe">แบบฝึกปฏิบัติ</string>
+
+
+    <string name="alert_internet_connection">Please check your internet connection and try again</string>
+
+
+    <string name="title_selected"> - ระดับการศึกษา - </string>
+    <string name="bechalor_degree">ปริญญาตรี</string>
+    <string name="master">ปริญญาตรี</string>
+    <string name="master_degree">ปริญญาโท</string>
+
+
+    <string name="lesson">เอกสารการสอน</string>
+    <string name="literature">วรรณกรรม</string>
+    <string name="books_recommends">หนังสือแนะนำ</string>
+    <string name="see_all">See All</string>
+
+    // title and message dialog error login//
+    <string name="message_title_dialog_error_internet">เกิดปัญหาเกี่ยวกับการเชื่อมต่ออินเตอร์เน๊ต</string>
+    <string name="message_try_again">ลองอีกครั้ง</string>
+    <string name="message_cancel">ยกเลิก</string>
+    /// end ///
+
+    // title and message dialog_master_degree//
+    <string name="message_title_dialog_master_degree">ไม่สามารถใช้อีเมล์นี้ได้ !!\t ลองสมัครอีเมล์ใหม่อีกครั้ง</string>
+    <string name="message_try_again_dialog_master_degree">ลองอีกครั้ง</string>
+    <string name="message_cancel_dialog_master_degree">ยกเลิก</string>
+    <string name="message_register_again_dialog_master_degree">สมัครใหม่อีกครั้ง</string>
+    /// end ///
+
+    // title and message dialog_master_degree//
+    <string name="message_title_dialog_bechalor_degree">ไม่สามารถใช้อีเมล์นี้ได้ !!\t ลองสมัครอีเมล์ใหม่อีกครั้งี</string>
+    <string name="message_try_again_dialog_bechalor_degree">ลองอีกครั้ง</string>
+    <string name="message_cancel_dialog_bechalor_degree">ยกเลิก</string>
+    <string name="message_register_again_dialog_bechalor_degree">สมัครใหม่อีกครั้ง</string>
+    /// end ///
+
+    // title and message dialog_ebook_login//
+    <string name="message_title_dialog_ebook_login">ชื่อผู้ใช้และรหัสผ่านผิด.\n ลองอีกครั้ง ?</string>
+    <string name="message_try_again_dialog_ebook_login">ลองอีกครั้ง</string>
+    /// end ///
+
+    // title and message dialog_exsiting_email//
+    <string name="message_title_dialog_exsiting_email">ไม่สามารถใช้อีเมล์นี้ได้ !!\n ลองสมัครอีเมล์ใหม่อีกครั้ง ?</string>
+    <string name="message_try_again_dialog_exsiting_email">ลองอีกครั้ง</string>
+    /// end ///
+
+
+    // error password and fill email//
+    <string name="message_title_dialog_error_password">ยืนยันรหัสผ่านไม่ตรงกัน.</string>
+    <string name="message_close_dialog_error_password">ปิด</string>
+    <string name="message_invalid_email">การกรอกอีเมล์ผิดพลาด</string>
+    <string name="message_invalid_infomation">ลงทะเบียนล้มเหลว.</string>
+    <string name="message_must_choose">โปรดเลือกระดับการศึกษาของคุณ.</string>
+    <string name="message_fill_email">กรุณากรอกอีเมล์..</string>
+    <string name="message_fill_password">กรุณากรอกรหัสผ่าน.</string>
+    <string name="message_device_login_limit">ไม่สามารถเข้าใช้งานได้\tท่านใช้อุปกรณ์เกินที่กำหนด\nกรุณาออกจากระบบเครื่องที่ไม่ใช้งาน</string>
+    <string name="message_ok">ตกลง</string>
+    /// end ///
+
+    // tab title//
+    <string name="tab_bechalor_degree">ปริญญาตรี</string>
+    <string name="tab_master_degree">บัณฑิตศึกษา </string>
+    <string name="tab_public_user">หนังสืออื่น</string>
+    <string name="tab_intro">วิธีเข้าอ่านหนังสือ </string>
+    <string name="tab_contact">ติดต่อเรา </string>
+    /// end ///
+
+
+    // button edit shelf //
+    <string name="record_book_shelf">บันทึก</string>
+    <string name="deleted_book_shelf">แก้ไข </string>
+    /// end ///
+
+    // title tab //
+    <string name="book_tab_title">หนังสือ</string>
+    <string name="shelf_tab_title">ตู้หนังสือ</string>
+    <string name="contact_tab_title">ติดต่อเรา</string>
+    /// end ///
+
+    // title and message dialog go to shelf //
+    <string name="actionbar_title_detail">รายละเอียด</string>
+    <string name="already_add_book_to_shelf">เพิ่มหนังสือไว้แล้ว</string>
+    <string name="go_to_book_shelf">ไปตู้หนังสือ</string>
+    /// end ///
+
+    <string name="guideline_education">แนวทางการศึกษา</string>
+
+    // title and message dialog logout for login master degree//
+    <string name="alert_message_logout">
+    กรุณาออกจากระบบ\nแล้วเข้าสู่ระบบด้วยสิทธินักศึกษา มสธ.</string>
+    <string name="logout_confirm">ออกจากระบบ</string>
+    <string name="logout_cancel">ยกเลิก</string>
+    <string name="logout_success">ออกจากระบบเรียบร้อย</string>
+    /// end ///
+
+    // title and message dialog logout for login bechalor degree//
+    <string name="alert_bechalor_message_logout">
+    กรุณาออกจากระบบ\nแล้วเข้าสู่ระบบด้วยสิทธินักศึกษา มสธ.</string>
+    <string name="logout_bechalor_confirm">ออกจากระบบ</string>
+    <string name="logout_bechalor_cancel">ยกเลิก</string>
+    <string name="logout_bechalor_success">ออกจากระบบเรียบร้อย</string>
+
+
+    <string name="title_logout">ขออภัยกลุ่มผู้ใช้งานปัจจุบันของท่านไม่ถูกต้อง</string>
+    <string name="message_logout">กรุณาเข้าสู่ระบบด้วยสิทธินักศึกษาในกลุ่มของท่าน</string>
+    <string name="message_confirm">ยกเลิก</string>
+    /// end ///
+
+    <string name="add_to_shelf_success">เพิ่มหนังสือเรียบร้อยแล้ว</string>
+    <string name="buy_ebook">ซื้อหนังสือต่อ</string>
+
+    <!-- setting -->
+    <string name="background_title1">Background Style</string>
+    <string name="background_title2">Choose your favorite\nbackground picture</string>
+    <string name="Shelf_title1">Shelf Style</string>
+    <string name="Shelf_title2">Choose your favorite\nshelf picture</string>
+
+    <string-array name="name_image">
+        <item>Default</item>
+        <item>Dark Wood</item>
+        <item>White Wood</item>
+        <item>Wood</item>
+        <item>Wood Wall</item>
+    </string-array>
+    <string-array name="name_image2">
+        <item>\t พื้นหลังแบบมาตรฐาน สีเทาอ่อน</item>
+        <item>\t พื้นหลังลายไม้เข้มสานกัน</item>
+        <item>\t พื้นหลังลายไม้ขาวอ่อน</item>
+        <item>\t พื้นหลังลายไม้ธรรมชาติ</item>
+        <item>\t พื้นหลังลายกำแพงไม้</item>
+    </string-array>
+    <string-array name="shelf_image">
+        <item>Default</item>
+        <item>Wood</item>
+        <item>Wood steel</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="shelf_image2">
+        <item>\t ชั้นวางแก้วใส</item>
+        <item>\t ชั้นวางลายไม้</item>
+        <item>\t ชั้นวางลายไม้ขอบโลหะ</item>
+        <item>\t ชั้นวางสีน้ำมัน</item>
+        <item>\t ชั้นวางโลหะสีแดง</item>
+        <item>\t ชั้นวางโลหะสีดำ</item>
+    </string-array>
+
+    <!-- facebook -->
+    <!-- <string name="app_id">175112646015751</string>  debug -->
+    <string name="app_id">175112646015751</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_loginview_log_out_button">Log Out Facebook</string>
+    <string name="com_facebook_loginview_log_in_button">Login Facebook</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log Out</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log In&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged In</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not Logged In</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="you_notlogin1">\t คุณกำลังเข้าใช้งานแบบไม่ได้ลงทะเบียน</string>
+    <string name="you_notlogin2">\t จะทำให้ไม่สามารถเก็บข้อมูลผู้ใช้งาน ข้อมูลหนังสือที่เลือกไว้ และไม่สามารถเปิดอ่านหนังสือบนอุปกรณ์อื่นได้ แนะนำให้เลือกเข้าใช้งานแบบลงทะเบียน โดยสามารถกดปุ่ม ลงทะเบียนที่ด้านขวามือ ได้ทันที.</string>
+    <string name="label_login_line2_part1">(ลูกค้าเก่า</string>
+    <string name="label_login_line2_part2">สามารถใช้ข้อมูลเดิม Login ได้)</string>
+    <string name="label_login_line1">โปรดกรอกข้อมูลและรหัสผ่านเดิมที่เคยลงทะเบียน แล้วคลิก Login เข้าใช้งานระบบได้ทันที</string>
+    <string name="login_facebook1">\t Got Facebook?</string>
+    <string name="login_facebook2">\t Loggin in using you Facebook account</string>
+    <string name="login_email1">\t Login With Email</string>
+    <string name="login_email2">\t Using your email address and password to sign in</string>
+    <string name="login_signup1">\t Sign up</string>
+    <string name="login_signup2">\t If you using this app frist time and want us to keep you bookshelf list</string>
+    <string name="login_withoutlogin1">\t Without Login</string>
+    <string name="login_withoutlogin2"> Continue without login</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="loginStou">\t Login STOU</string>
+    <string name="loginStouUniversity">\t Login STOU University</string>
+    <!-- ebook -->
+    <string name="app_name">STOU</string>
+    <string name="allbook">หนังสือทั้งหมด</string>
+    <string name="allbook_detail">หนังสือทั้งหมดทุกหมวดในคลังหนังสือ</string>
+    <string name="new_releases">New Releases</string>
+    <string name="recommend">Recommended</string>
+    <string name="free">Read It Free!</string>
+    <string name="sales">Sales</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <!-- detail -->
+
+    <string name="cannot_read_ebook">ขออภัยท่านไม่มีสิทธิอ่านหนังสือเล่มนี้</string>
+    <string name="addtoshelf">เพิ่มเข้าตู้</string>
+    <string name="already">ไปตู้หนังสือ</string>
+    <string name="already_fan">ALREADY FAN</string>
+    <string name="buy_subscription">SUBCRIPTION</string>
+    <string name="buy_printondeman">PRINT ON DEMAND</string>
+    <string name="addtoshelf_free">เพิ่มเข้าตู้ฟรี</string>
+    <string name="other_book">ดูหนังสือเล่มอื่น</string>
+    <string name="search">ชื่อหนังสือที่ต้องการค้นหา</string>
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
+    <!-- publisher -->
+    <string name="publisher_update">Recently Update</string>
+    <string name="publisher_recommend">Recommended</string>
+    <string name="publisher_name">Sort by Name</string>
+    <string name="publisher_each">เล่ม</string>
+    <string name="publisher_countebook">มีหนังสือทั่งหมด</string>
+    <!-- Publisher detail -->
+    <string name="publisher_total">จำนวนหนังสือ \n ของสำนักพิมพ์</string>
+    <string name="publisher_download">จำนวนการดาวน์โหลด \n หนังสือเพื่ออ่าน</string>
+    <string name="publisher_fan">จำนวนสมาชิก \n สมัครเป็นแฟน</string>
+    <string name="become_fan">BECOME A FAN</string>
+    <!-- Top -->
+    <string name="top_seller">Best Seller</string>
+    <string name="top_download">Top Download</string>
+    <string name="top_weekly">Weekly</string>
+    <string name="top_day">Daily</string>
+    <string name="top_month">Monthly</string>
+    <!-- Shelf -->
+    <string name="shelf_news">หนังสือทั้งหมด</string>
+    <string name="shelf_favorite">หนังสือเล่มโปรด</string>
+    <string name="shelf_trash">หนังสือถูกลบ</string>
+    <string name="sign_in">เข้าสู่ระบบ</string>
+    <string name="sign_out">ออกจากระบบ</string>
+
+    <string name="save">บันทึก</string>
+    <string name="edit">แก้ไข</string>
+    <!-- customer -->
+    <string name="customer_total">จำนวนหนังสือของ \n สำนักพิมพ์</string>
+    <string name="customer_favorite">จำนวนหนังสือ \n สมัครเป็นแฟน</string>
+    <string name="customer_fanpublisher">จำนวนสมาชิก \n สมัครเป็นแฟน</string>
+
+    <!-- STOU -->
+    <string name="stou_book">STOU eBooks</string>
+    <string name="stou_book_login">STOU eBooks Login</string>
+    <string name="tutorial">เอกสารการสอน</string>
+    <string name="rare_book">วรรณกรรม</string>
+    <string name="univer_book">ประมวลสาระ</string>
+    <string name="book_shelf">Bookshelf</string>
+    <string name="major">คณะ</string>
+    <!-- Shelf -->
+    <string name="tel">Tel</string>
+    <string name="search_bookshelf">search</string>
+    <string name="search_book">ค้นหา</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="refresh">รีเฟรช</string>
+    <!-- Contact -->
+    <string name="contact">ติดต่อ</string>
+    <string name="contact_us">จัดทำโดย</string>
+    <string name="contact_details">โครงการเลือกสรรหนังสือ \n
+หน่วยเลือกสรรหนังสือ \n
+ฝ่ายวิชาการ สำนักพิมพ์ มหาวิทยาลัยสุโขทัยธรรมาธิราช \n
+โทร 0-2504-7656 โทรสาร 0-2503-4913 \n
+หากท่านต้องการอ่านหนังสือที่เป็นสิ่งพิมพ์ติดต่อที่ฝ่ายเผยแพร่และจัดจำหน่าย สำนักพิมพ์มหาวิทยาลัยสุโขทัยธรรมธิราช ติดต่อโทร 02-5047670-3</string>
+    <string name="contact_link">http://www.ebookstou.org/</string>
+
+    <!-- Welcome -->
+    <string name="title_welcome">\t\t\t\t\tยินดีต้อนรับทุกท่าน\nโปรดเลือกหมวดเพื่อเข้าสู่การใช้งาน</string>
+
+    <array name="dummy_items">
+        <item>Book 1</item>
+        <item>Book 2</item>
+        <item>Book 3</item>
+        <item>Book 4</item>
+        <item>Book 5</item>
+        <item>Book 6</item>
+        <item>Book 7</item>
+        <item>Book 8</item>
+        <item>Book 9</item>
+        <item>Book 10</item>
+        <item>Book 11</item>
+        <item>Book 12</item>
+        <item>Book 13</item>
+        <item>Book 14</item>
+        <item>Book 15</item>
+        <item>Book 16</item>
+        <item>Book 17</item>
+        <item>Book 18</item>
+        <item>Book 19</item>
+        <item>Book 20</item>
+        <item>Book 21</item>
+        <item>Book 22</item>
+        <item>Book 23</item>
+        <item>Book 24</item>
+        <item>Book 25</item>
+        <item>Book 26</item>
+        <item>Book 27</item>
+        <item>Book 28</item>
+        <item>Book 29</item>
+        <item>Book 30</item>
+    </array>
+
+</resources>

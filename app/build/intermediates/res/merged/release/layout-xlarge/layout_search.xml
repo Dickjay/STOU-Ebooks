@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_button"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/search_rt_search"
+        android:layout_width="@dimen/search_rt_search_width"
+        android:layout_height="wrap_content"
+        android:background="@color/WhiteBackground" >
+
+        <com.porar.ebook.control.CustomEditText
+            android:id="@+id/search_et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:hint="@string/search"
+            android:singleLine="true"
+            android:textColorLink="@color/tabDark"
+            android:textSize="@dimen/normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearll"
+        android:layout_width="@dimen/search_rt_search_width"
+        android:layout_height="wrap_content"
+        android:background="@color/WhiteBackground"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_dialog_search"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/lv_dialog_search_hight"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollingCache="true" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-xlarge/layout_search.xml -->

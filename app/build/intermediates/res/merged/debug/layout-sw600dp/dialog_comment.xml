@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_main_default"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearRatings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/detailpublisher_marginLeft"
+            android:layout_marginTop="@dimen/detailpublisher_icon_marginTop"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dialogcomment_textView_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating"
+                android:textColor="@color/tabDark"
+                android:textSize="@dimen/normal" />
+
+            <RatingBar
+                android:id="@+id/dialogcomment_rating_dialogcommemt"
+                style="@style/customRatingBar32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/detailpublisher_marginLeft"
+                android:numStars="5"
+                android:rating="0.0"
+                android:stepSize="1" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/detailpublisher_marginLeft" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/dialogcomment_textView_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comment"
+                    android:textColor="@color/tabDark"
+                    android:textSize="@dimen/normal" />
+
+                <EditText
+                    android:id="@+id/dialogcomment_edittext_commemt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:hint="Comment"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:minWidth="@dimen/dialogcomment_layout_height"
+                    android:textColor="@color/tabDark"
+                    android:textSize="@dimen/normal" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/dialogcomment_textView_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="@color/tabDark"
+                    android:textSize="@dimen/normal" />
+
+                <EditText
+                    android:id="@+id/dialogcomment_edittext_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:minWidth="@dimen/dialogcomment_layout_height"
+                    android:textColor="@color/tabDark"
+                    android:textSize="@dimen/normal" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialoglogin_edittext_marginBottom"
+            android:layout_marginTop="@dimen/dialoglogin_edittext_marginTop"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/dialogcomment__btn_cancel"
+                android:layout_width="@dimen/dialoglogin_btn_width"
+                android:layout_height="@dimen/dialoglogin_btn_height"
+                android:background="@drawable/btn_bg_dark"
+                android:text="cancel"
+                android:textColor="@color/WhiteBackground"
+                android:textSize="@dimen/normal" />
+
+            <Button
+                android:id="@+id/dialogcomment__btn_login"
+                android:layout_width="@dimen/dialoglogin_btn_width"
+                android:layout_height="@dimen/dialoglogin_btn_height"
+                android:layout_marginLeft="@dimen/dialoglogin_marginRight"
+                android:background="@drawable/btn_bg_dark"
+                android:text="submit"
+                android:textColor="@color/WhiteBackground"
+                android:textSize="@dimen/normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-sw600dp/dialog_comment.xml -->

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_default_ss"
+    android:orientation="vertical">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="?attr/colorPrimary"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/Theme.MyMaterial">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        <com.porar.ebooks.widget.AdjustableImageView
+                            android:id="@+id/refresh_imageview"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:padding="15dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/navigation_back" />
+
+                        <com.porar.ebooks.widget.AdjustableImageView
+                            android:id="@+id/edit_imageview"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:padding="10dp"
+                            android:scaleType="centerCrop" />
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="@string/actionbar_title_detail"
+                                android:textColor="@color/textColorPrimary"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <com.porar.ebooks.widget.AdjustableImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:padding="10dp"
+                            android:scaleType="centerCrop" />
+
+                        <com.porar.ebooks.widget.AdjustableImageView
+                            android:id="@+id/profile_imageview"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:padding="15dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_action_group" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:id="@+id/detail_linear_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:id="@+id/detail_scrollView_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/detail_rt_main"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/detail_text_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dialoglogin_padding"
+                                android:layout_marginRight="@dimen/dialoglogin_padding"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:text="name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/big" />
+
+                            <ImageView
+                                android:id="@+id/detail_image_cover"
+                                android:layout_width="@dimen/img_ebook_cover_width"
+                                android:layout_height="@dimen/img_ebook_cover_hight"
+                                android:layout_below="@+id/detail_text_title"
+                                android:layout_marginLeft="@dimen/dialoglogin_padding"
+                                android:src="@drawable/cover_not_available2x" />
+
+                            <RelativeLayout
+                                android:id="@+id/detail_rt_covers_textdetail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/detail_text_title"
+                                android:layout_marginRight="@dimen/dialoglogin_padding"
+                                android:layout_toRightOf="@+id/detail_image_cover"
+                                android:paddingLeft="20dp">
+
+                                <RelativeLayout
+                                    android:id="@+id/detail_rt_covers_ratingstar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <RatingBar
+                                        android:id="@+id/detail_ratingStar"
+                                        style="@style/customRatingBar24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:numStars="5"
+                                        android:paddingTop="5dp"
+                                        android:rating="0.0"
+                                        android:stepSize="0.5" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/detail_rt_covers_datetime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/detail_rt_covers_ratingstar">
+
+                                    <TextView
+                                        android:id="@+id/detail_text_datetime"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Date"
+                                        android:textSize="@dimen/normal" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/detail_rt_covers_pageandsize"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/detail_rt_covers_datetime">
+
+                                    <TextView
+                                        android:id="@+id/detail_text_page"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="199 Pages"
+                                        android:textSize="@dimen/normal" />
+
+                                    <TextView
+                                        android:id="@+id/detail_text_size"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_toRightOf="@+id/detail_text_page"
+                                        android:text="9.99 MB"
+                                        android:textSize="@dimen/normal" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/detail_rt_covers_price_writers"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/detail_rt_covers_pageandsize">
+
+                                    <TextView
+                                        android:id="@+id/detail_text_writers"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="end"
+                                        android:lines="2"
+                                        android:text="ebooks.in.th"
+                                        android:textSize="@dimen/normal" />
+
+                                    <TextView
+                                        android:id="@+id/detail_text_price_bth"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/detail_text_writers"
+                                        android:text="199 บาท"
+                                        android:textColor="#FF2222"
+                                        android:textSize="@dimen/normal" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/detail_rt_covers_btnbuy"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/detail_rt_covers_price_writers">
+
+                                    <Button
+                                        android:id="@+id/detail_btn_price_bth"
+                                        android:layout_width="@dimen/btn_buy_width"
+                                        android:layout_height="@dimen/btn_buy_hight"
+                                        android:background="@drawable/orange_button_large"
+                                        android:singleLine="true"
+                                        android:text="@string/addtoshelf"
+                                        android:textColor="@color/WhiteBackground"
+                                        android:textSize="@dimen/normal" />
+
+                                    <!--
+                                    <Button
+                                        android:id="@+id/detail_btn_price_subscription_bth"
+                                        android:layout_width="@dimen/btn_buy_width"
+                                        android:layout_height="@dimen/btn_buy_hight"
+                                        android:layout_below="@+id/detail_btn_price_bth"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@drawable/green_button"
+                                        android:singleLine="true"
+                                        android:text="@string/buy_subscription"
+                                        android:textColor="@color/tabDark"
+                                        android:textSize="@dimen/normal" />
+
+                                    <Button
+                                        android:id="@+id/detail_btn_price_print_bth"
+                                        android:layout_width="@dimen/btn_buy_width"
+                                        android:layout_height="@dimen/btn_buy_hight"
+                                        android:layout_below="@+id/detail_btn_price_subscription_bth"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@drawable/purple_button_large"
+                                        android:singleLine="true"
+                                        android:text="@string/buy_printondeman"
+                                        android:textColor="@color/tabDark"
+                                        android:textSize="@dimen/normal" />
+                                    -->
+                                </RelativeLayout>
+                            </RelativeLayout>
+
+                            <!--
+                            <LinearLayout
+                                android:id="@+id/detail_linargg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/detail_rt_covers_textdetail"
+                                android:layout_marginLeft="@dimen/dialoglogin_padding"
+                                android:layout_marginRight="@dimen/dialoglogin_padding"
+                                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                                android:gravity="center_vertical|bottom" >
+
+                                <ImageView
+                                    android:id="@+id/detail_image_cover2"
+                                    android:layout_width="40dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/cover_not_available2x" />
+
+                                <ImageView
+                                    android:id="@+id/detail_image_cover3"
+                                    android:layout_width="40dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginLeft="@dimen/dialoglogin_padding"
+                                    android:src="@drawable/cover_not_available2x" />
+
+                                <RelativeLayout
+                                    android:id="@+id/detail_rt_covers_publisher"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/bg_publisher_ipad2x"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="20dp" >
+
+                                    <ImageView
+                                        android:id="@+id/detail_img_bg_publisher"
+                                        android:layout_width="@dimen/img_publisher_dialogshadow_width"
+                                        android:layout_height="@dimen/img_publisher_dialogshadow_hight"
+                                        android:layout_centerVertical="true"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/bg_publisher_logo" />
+
+                                    <ImageView
+                                        android:id="@+id/detail_img_publisher"
+                                        android:layout_width="@dimen/img_publisher_dialogcover_width"
+                                        android:layout_height="@dimen/img_publisher_dialogcover_hight"
+                                        android:layout_centerVertical="true"
+                                        android:scaleType="centerInside" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_toRightOf="@+id/detail_img_bg_publisher"
+                                        android:orientation="vertical" >
+
+                                        <TextView
+                                            android:id="@+id/detail_text_publishername"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="Publisher"
+                                            android:textColor="@color/tabDark"
+                                            android:textSize="@dimen/normal" />
+
+                                        <TextView
+                                            android:id="@+id/detail_text_otherbook"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/other_book"
+                                            android:textSize="@dimen/small" />
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:id="@+id/image_logo"
+                                        android:layout_width="@dimen/tab_indicator_icon_width"
+                                        android:layout_height="@dimen/tab_indicator_icon_width"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginRight="5dp"
+                                        android:src="@drawable/navigation_next_item" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                            -->
+
+
+                            <!--
+                            <TextView
+                                android:id="@+id/detail_txt_backissue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/detail_linargg"
+                                android:layout_marginLeft="@dimen/dialoglogin_padding"
+                                android:layout_marginRight="@dimen/dialoglogin_padding"
+                                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                                android:text="Back Issue"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/normal" />
+
+                            <com.porar.ebook.control.HorizontalListView
+                                android:id="@+id/detail_horizallistview"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/Hori_hight"
+                                android:layout_below="@+id/detail_txt_backissue"
+                                android:background="#cccccc"
+                                android:padding="5dp" >
+                            </com.porar.ebook.control.HorizontalListView>
+                            -->
+
+                            <RelativeLayout
+                                android:id="@+id/detail_rt_description"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/scroll_detail"
+                                android:layout_below="@+id/detail_rt_covers_textdetail"
+                                android:layout_marginLeft="@dimen/dialoglogin_padding"
+                                android:layout_marginRight="@dimen/dialoglogin_padding"
+                                android:layout_marginTop="@dimen/dialoglogin_marginTop">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+                                    android:background="@drawable/com_facebook_button_grey_pressed" />
+
+                                <ScrollView
+                                    android:id="@+id/detail_scrollView_child"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/detail_text_descriptions"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="description"
+                                            android:textColor="@color/tabDark"
+                                            android:textSize="@dimen/normal" />
+                                    </LinearLayout>
+                                </ScrollView>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-large/activity_detail.xml -->

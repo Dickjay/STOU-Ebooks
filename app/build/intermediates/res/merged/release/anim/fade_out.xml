@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/accelerate_interpolator"
+    android:fromAlpha="1.0" 
+    android:toAlpha="0.0" 
+    android:duration="250"
+    />
+<!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/anim/fade_out.xml -->

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-large/values-large.xml -->
+    <eat-comment/>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/icon_size.xml -->
+    <eat-comment/>
+    <dimen name="Hori_hight">130dp</dimen>
+    <dimen name="Tab_bottom">26dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-large/values-large.xml -->
+    <eat-comment/>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <dimen name="abc_search_view_text_min_width">192dip</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/icon_size.xml -->
+    <eat-comment/>
+    <dimen name="abs_layout_marginRight">120dp</dimen>
+    <dimen name="abs_layoutpublisher_marginRight">200dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/text_size.xml -->
+    <eat-comment/>
+    <dimen name="big">25dp</dimen>
+    <dimen name="big_title">30dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/icon_size.xml -->
+    <eat-comment/>
+    <dimen name="btn_buy_hight">42dp</dimen>
+    <dimen name="btn_buy_width">192dp</dimen>
+    <dimen name="btn_publisher_width">120dp</dimen>
+    <dimen name="category_layout_marginLeft">8dp</dimen>
+    <dimen name="category_layout_marginRight">2dp</dimen>
+    <dimen name="category_layout_width">240dp</dimen>
+    <dimen name="category_linear_cover_hight">48dp</dimen>
+    <dimen name="category_linear_cover_width">40dp</dimen>
+    <dimen name="detailpublisher_icon_marginTop">16dp</dimen>
+    <dimen name="detailpublisher_icon_tdf_heightwidth">51dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_height">64dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_margintop">16dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_width">116dp</dimen>
+    <dimen name="detailpublisher_linear_height">204dp</dimen>
+    <dimen name="detailpublisher_marginBottom">16dp</dimen>
+    <dimen name="detailpublisher_marginLeft">16dp</dimen>
+    <dimen name="detailpublisher_marginRight">8dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-large/values-large.xml -->
+    <eat-comment/>
+    <item name="dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="dialog_fixed_width_minor" type="dimen">90%</item>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/icon_size.xml -->
+    <eat-comment/>
+    <dimen name="dialoglogin_btn_height">35dp</dimen>
+    <dimen name="dialoglogin_btn_width">115dp</dimen>
+    <dimen name="dialoglogin_edittext_marginBottom">16dp</dimen>
+    <dimen name="dialoglogin_edittext_marginTop">20dp</dimen>
+    <dimen name="dialoglogin_imaprofile">64dp</dimen>
+    <dimen name="dialoglogin_marginRight">16dp</dimen>
+    <dimen name="dialoglogin_marginTop">5dp</dimen>
+    <dimen name="dialoglogin_padding">10dp</dimen>
+    <dimen name="dialoglogin_title_height">48dp</dimen>
+    <dimen name="ebook_rt_head_hight">64dp</dimen>
+    <dimen name="icon_head">48dp</dimen>
+    <dimen name="icon_padding">5dp</dimen>
+    <dimen name="img_ebook_cover_hight">114dp</dimen>
+    <dimen name="img_ebook_cover_width">86dp</dimen>
+    <dimen name="img_ebook_shadow_hight">116dp</dimen>
+    <dimen name="img_ebook_shadow_width">88dp</dimen>
+    <dimen name="img_ebookcategory_cover_hight">74dp</dimen>
+    <dimen name="img_ebookcategory_cover_width">53dp</dimen>
+    <dimen name="img_ebookcategory_shadow_hight">76dp</dimen>
+    <dimen name="img_ebookcategory_shadow_width">55dp</dimen>
+    <dimen name="img_publisher_cover_hight">88dp</dimen>
+    <dimen name="img_publisher_cover_width">120dp</dimen>
+    <dimen name="img_publisher_dialogcover_hight">58dp</dimen>
+    <dimen name="img_publisher_dialogcover_width">80dp</dimen>
+    <dimen name="img_publisher_dialogshadow_hight">60dp</dimen>
+    <dimen name="img_publisher_dialogshadow_width">82dp</dimen>
+    <dimen name="img_publisher_shadow_hight">90dp</dimen>
+    <dimen name="img_publisher_shadow_width">122dp</dimen>
+    <dimen name="margin_top_shelf">56dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/text_size.xml -->
+    <eat-comment/>
+    <dimen name="normal">20dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/quote_size.xml -->
+    <eat-comment/>
+    <dimen name="quote_hight">600dp</dimen>
+    <dimen name="quote_width">600dp</dimen>
+    <dimen name="quote_width_name">130dp</dimen>
+    <dimen name="quoteimg_ebook_cover_hight">112dp</dimen>
+    <dimen name="quoteimg_ebook_cover_width">80dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/icon_size.xml -->
+    <eat-comment/>
+    <dimen name="scroll_detail">130dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/text_size.xml -->
+    <eat-comment/>
+    <dimen name="small">15dp</dimen>
+    <dimen name="smaller">11dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/icon_size.xml -->
+    <eat-comment/>
+    <dimen name="star_hight_24">25dp</dimen>
+    <dimen name="tab_indicator_icon_width">26dp</dimen>
+    <dimen name="tab_indicator_layout_height">52dp</dimen>
+    <dimen name="typebar_padding_right">20dp</dimen>
+    <dimen name="typebar_padding_top">2dp</dimen>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-large/values-large.xml -->
+    <eat-comment/>
+    <integer name="abc_max_action_buttons">4</integer>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/integers.xml -->
+    <eat-comment/>
+    <integer name="grid_columns">3</integer>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/values-large/text_size.xml -->
+    <eat-comment/>
+    <string name="dialog_marginright">48</string>
+    <string name="size_pointer">15</string>
+    <!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-large/values-large.xml -->
+    <eat-comment/>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/blue" android:state_pressed="true"><shape></shape></item>
+    <item android:drawable="@color/tabTransparent" android:state_enabled="true"><shape></shape></item>
+    <item android:drawable="@color/tabTransparent" android:state_enabled="false"><shape></shape></item>
+
+</selector><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/drawable/linear_bg_share.xml -->

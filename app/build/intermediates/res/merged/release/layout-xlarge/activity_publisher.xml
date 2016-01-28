@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/publisher_mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_default"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/publisher_rt_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:id="@+id/publisher_rt_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ebook_rt_banner_hight" >
+
+            <Gallery
+                android:id="@+id/publisher_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/publisher_imageView_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_previous_glass" />
+
+            <ImageView
+                android:id="@+id/publisher_imageView_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_next_glass" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/publisher_rt_head"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ebook_rt_head_hight"
+            android:layout_below="@id/publisher_rt_banner"
+            android:background="@drawable/leather_bar2" >
+
+            <LinearLayout
+                android:id="@+id/publisher_linear_head_tool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/publisher_linear_head_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/publisher_image_refresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_image_head_tool_hight"
+                        android:src="@drawable/icon_refresh2x" />
+
+                    <TextView
+                        android:id="@+id/publisher_txt_refresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Refresh"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/publisher_linear_head_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/ebook_linear_head_tool_marginLeft"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/publisher_image_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_image_head_tool_hight"
+                        android:src="@drawable/icon_lbar_search2x" />
+
+                    <TextView
+                        android:id="@+id/publisher_txt_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/publisher_linear_head_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/ebook_linear_head_tool_marginLeft"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/publisher_image_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_image_head_tool_hight"
+                        android:src="@drawable/icon_settings2x" />
+
+                    <TextView
+                        android:id="@+id/publisher_txt_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Setting"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/publisher_linear_head_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/publisher_btn_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/ebook_btn_type_hight"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:height="@dimen/ebook_btn_type_hight"
+                        android:minWidth="@dimen/ebook_btn_type_minwidth"
+                        android:text="@string/publisher_update"
+                        android:textColor="@color/WhiteBackground"
+                        android:textSize="@dimen/small" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/publisher_rt_pageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/publisher_rt_head"
+            android:gravity="center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/ebook_rt_pageview_marginTop"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/publisher_img_shelf1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop1"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+
+                <ImageView
+                    android:id="@+id/publisher_img_shelf2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop234"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+
+                <ImageView
+                    android:id="@+id/publisher_img_shelf3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop234"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+
+                <ImageView
+                    android:id="@+id/publisher_img_shelf4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ebook_img_shelf_maginTop234"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/shelf_glass2x" />
+            </LinearLayout>
+
+            <com.porar.ebook.control.MyViewPager
+                android:id="@+id/publisher_myViewPager1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </com.porar.ebook.control.MyViewPager>
+
+            <LinearLayout
+                android:id="@+id/publisher_linear_dotpage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/publisher_myViewPager1"
+                android:layout_marginBottom="@dimen/ebook_linear_dotpage_marginBottom"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/publisher_rt_dummyscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/transparent" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/publisher_linear_fortabview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/publisher_rt_head"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-xlarge/activity_publisher.xml -->

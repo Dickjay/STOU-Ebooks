@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="icon_head">48dp</dimen>
+    <!-- Buy -->
+    <dimen name="btn_buy_width">220dp</dimen>
+    <dimen name="btn_buy_hight">45dp</dimen>
+    <dimen name="btn_publisher_width">180dp</dimen>
+
+    <!-- Dialog comment -->
+    <dimen name="dialogcomment_layout_width">480dp</dimen>
+    <dimen name="dialogcomment_layout_height">320dp</dimen>
+
+    <!-- Tab Indicator -->
+    <dimen name="Tab_Margin_Width">80dp</dimen>
+    <dimen name="Tab_bottom">26dp</dimen>
+    <!-- Ebook -->
+    <dimen name="scroll_detail">96dp</dimen>
+    <dimen name="ebook_btn_category_minwidth">200dp</dimen>
+    <dimen name="ebook_spinner_minwidth">160dp</dimen>
+    <dimen name="ebook_btn_type_minwidth">120dp</dimen>
+    <dimen name="ebook_img_shelf_maginTop1">60dp</dimen>
+    <dimen name="ebook_img_shelf_maginTop234">62dp</dimen>
+    <dimen name="ebook_rt_banner_hight">200dp</dimen>
+    <dimen name="ebook_rt_head_hight">45dp</dimen>
+    <dimen name="ebook_linear_head_tool_marginLeft">8dp</dimen>
+    <dimen name="ebook_linear_head_tool_marginRight">8dp</dimen>
+    <dimen name="ebook_image_head_tool_hight">20dp</dimen>
+    <dimen name="ebook_linear_head_marginLeft">16dp</dimen>
+    <dimen name="ebook_rt_pageview_marginTop">14dp</dimen>
+    <dimen name="ebook_linear_dotpage_marginBottom">8dp</dimen>
+    <dimen name="ebook_btn_category_hight">32dp</dimen>
+    <dimen name="ebook_btn_type_hight">32dp</dimen>
+    <dimen name="tab_indicator_layout_height">52dp</dimen>
+    <dimen name="tab_indicator_icon_width">26dp</dimen>
+    <dimen name="columnWidth">82dp</dimen>
+    <dimen name="verticalSpacing">49dp</dimen>
+    <dimen name="img_ebook_cover_width">80dp</dimen>
+    <dimen name="img_ebook_cover_hight">112dp</dimen>
+    <dimen name="img_ebook_shadow_width">82dp</dimen>
+    <dimen name="img_ebook_shadow_hight">114dp</dimen>
+    <dimen name="ebook_btn_margin">5dp</dimen>
+    <!-- actionbar -->
+    <dimen name="abs_layout_marginRight">120dp</dimen>
+    <dimen name="abs_layoutpublisher_marginRight">200dp</dimen>
+    <dimen name="category_layout_width">240dp</dimen>
+    <dimen name="category_layout_marginLeft">8dp</dimen>
+    <dimen name="category_layout_marginRight">2dp</dimen>
+    <dimen name="category_linear_cover_width">40dp</dimen>
+    <dimen name="category_linear_cover_hight">48dp</dimen>
+    <!-- search -->
+    <dimen name="search_rt_search_width">240dp</dimen>
+    <dimen name="lv_dialog_search_hight">360dp</dimen>
+
+    <!-- Publisher_table -->
+    <dimen name="table_img_bg_publisher_height">44dp</dimen>
+    <dimen name="table_img_bg_publisher_width">92dp</dimen>
+    <dimen name="table_img_publisher_height">36dp</dimen>
+    <dimen name="table_img_publisher_width">92dp</dimen>
+    <dimen name="table_publisher_height">124dp</dimen>
+    <dimen name="table_publisher_width">224dp</dimen>
+    <dimen name="table_publisher_verticalSpacing">37dp</dimen>
+    <dimen name="table_text_publisherfan_padding_right">6dp</dimen>
+    <dimen name="table_text_publisherfan_width">32dp</dimen>
+    <!-- publisher detail -->
+    <dimen name="detailpublisher_linear_height">224dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_height">64dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_width">116dp</dimen>
+    <dimen name="detailpublisher_imageview_cover_margintop">16dp</dimen>
+    <dimen name="detailpublisher_marginLeft">16dp</dimen>
+    <dimen name="detailpublisher_marginRight">8dp</dimen>
+    <dimen name="detailpublisher_marginBottom">16dp</dimen>
+    <dimen name="detailpublisher_icon_marginTop">16dp</dimen>
+    <dimen name="detailpublisher_icon_tdf_heightwidth">51dp</dimen>
+    <!-- Top -->
+    <dimen name="top_layout_marginTop">8dp</dimen>
+    <dimen name="top_layout_marginLeft">8dp</dimen>
+    <dimen name="top_layout_marginRight">8dp</dimen>
+    <dimen name="top_layout_marginButtom">8dp</dimen>
+    <!-- dialoglogin -->
+    <dimen name="dialoglogin_layout_width">480dp</dimen>
+    <dimen name="dialoglogin_layout_height">640dp</dimen>
+    <dimen name="dialoglogin_title_height">48dp</dimen>
+    <dimen name="dialoglogin_marginTop">8dp</dimen>
+    <dimen name="dialoglogin_edittext_marginTop">16dp</dimen>
+    <dimen name="dialoglogin_edittext_marginBottom">16dp</dimen>
+    <dimen name="dialoglogin_marginRight">16dp</dimen>
+    <dimen name="dialoglogin_btn_width">120dp</dimen>
+    <dimen name="dialoglogin_btn_height">40dp</dimen>
+    <dimen name="scroll_detaild">130dp</dimen>
+    
+    <!-- snuxker -->
+    <dimen name="scroll_detail_box">300dp</dimen>
+
+</resources>

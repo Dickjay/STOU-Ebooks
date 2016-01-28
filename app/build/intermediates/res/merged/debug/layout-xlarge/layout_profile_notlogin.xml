@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rt_profile_notlogin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ebook_rt_banner_hight"
+        android:orientation="horizontal"
+        android:background="@color/green_stou" >
+
+        <ImageView
+            android:id="@+id/rt_profile_imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/detailpublisher_imageview_cover_margintop"
+            android:src="@drawable/icon_user100" />
+
+        <ImageView
+            android:id="@+id/rt_profile_loginButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/detailpublisher_imageview_cover_margintop"
+            android:layout_marginRight="@dimen/detailpublisher_imageview_cover_margintop"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/rt_profile_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/detailpublisher_imageview_cover_margintop"
+            android:layout_toRightOf="@+id/rt_profile_imageView1"
+            android:text="@string/you_notlogin1"
+            android:textColor="@color/WhiteBackground"
+            android:textSize="@dimen/normal" />
+
+        <TextView
+            android:id="@+id/rt_profile_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/rt_profile_textView1"
+            android:layout_marginTop="@dimen/detailpublisher_imageview_cover_margintop"
+            android:layout_toRightOf="@+id/rt_profile_imageView1"
+            android:text="@string/you_notlogin2"
+            android:textColor="@color/WhiteBackground"
+            android:textSize="@dimen/normal" />
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-xlarge/layout_profile_notlogin.xml -->

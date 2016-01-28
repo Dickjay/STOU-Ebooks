@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="quote_width">800dp</dimen>
+    <dimen name="quote_hight">800dp</dimen>
+    <dimen name="quote_width_name">200dp</dimen>
+    
+    <dimen name="quoteimg_ebook_cover_width">100dp</dimen>
+    <dimen name="quoteimg_ebook_cover_hight">140dp</dimen>
+
+</resources>

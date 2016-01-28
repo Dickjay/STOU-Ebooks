@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/registration_linear_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_main_default_ss"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/registration_textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialoglogin_title_height"
+            android:background="@color/green_stou"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="เข้าสู่ระบบ หรือ ลงทะเบียน"
+            android:textColor="@color/WhiteBackground"
+            android:textSize="30dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/registration_linear_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/registration_textview_facebook1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tเข้าสู่ระบบด้วย  Account ของ Facebook "
+                    android:textColor="@color/tabDark"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/registration_authFacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="LoginButton" />
+
+                <TextView
+                    android:id="@+id/registration_textview_facebook2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tกดปุ่มเพื่อเชื่อมต่อระบบโดยใช้  Facebook"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ImageView03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/light_gray" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/registration_imageViewfacebook"
+                android:layout_width="@dimen/tab_indicator_icon_width"
+                android:layout_height="@dimen/tab_indicator_icon_width"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:src="@drawable/navigation_next_item" />
+
+            <ProgressBar
+                android:id="@+id/registration_progressBarfacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/registration_linear_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/registration_textview_email1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tเข้าสู่ระบบด้วยอีเมล์"
+                    android:textColor="@color/tabDark"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/registration_textview_email2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tใช้อีเมล์และรหัสผ่านเดิมที่เคยลงทะเบียนไว้แล้ว"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/light_gray" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/registration_imageViewemail"
+                android:layout_width="@dimen/tab_indicator_icon_width"
+                android:layout_height="@dimen/tab_indicator_icon_width"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:src="@drawable/navigation_next_item" />
+
+            <ProgressBar
+                android:id="@+id/registration_progressemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/registration_linear_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/registration_textview_signup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tลงทะเบียนใหม่ด้วยอีเมล์"
+                    android:textColor="@color/tabDark"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/registration_textview_signup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tใช้้งานครั้งแรก กรุณากรอกข้อมูลเพื่อสมัครใช้งานด้วยอีเมล์"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ImageView04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/light_gray" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/registration_imageView_register"
+                android:layout_width="@dimen/tab_indicator_icon_width"
+                android:layout_height="@dimen/tab_indicator_icon_width"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:src="@drawable/navigation_next_item" />
+
+            <ProgressBar
+                android:id="@+id/registration_progress_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/registration_linear_stou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/registration_textview_stou1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tเข้าสู่ระบบด้วยสิทธินักศึกษา มสธ."
+                    android:textColor="@color/tabDark"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/registration_textview_stou2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tใช้อีเมล์และรหัสผ่านเดิมที่เคยลงทะเบียนไว้แล้วด้วยสิทธินักศึกษา มสธ."
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/ImageView05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/light_gray" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/registration_progressBarstou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/registration_imageView_register_stou"
+                android:layout_width="@dimen/tab_indicator_icon_width"
+                android:layout_height="@dimen/tab_indicator_icon_width"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:src="@drawable/navigation_next_item" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/registration_linear_stou_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/registration_textview_stou1_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tลงทะเบียนใหม่ด้วยสิทธินักศึกษา มสธ."
+                    android:textColor="@color/tabDark"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/registration_textview_stou2_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tกรุณากรอกข้อมูลเพื่อสมัครใช้งานด้วยสิทธินักศึกษา มสธ."
+                    android:textSize="20dp"/>
+
+                <ImageView
+                    android:id="@+id/ImageView05_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/registration_progressBarstou_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/registration_imageView_register_stou_register"
+                android:layout_width="@dimen/tab_indicator_icon_width"
+                android:layout_height="@dimen/tab_indicator_icon_width"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:src="@drawable/navigation_next_item" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/registration_linear_withoutlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dialoglogin_marginTop"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/registration_textview_withoutlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/login_withoutlogin2"
+                    android:textColor="@color/tabDark"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/registration_textview_withoutlogin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="you can not enhance some features and save bookshelf list"
+                    android:textSize="20dp"/>
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="@dimen/tab_indicator_icon_width"
+                android:layout_height="@dimen/tab_indicator_icon_width"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dialoglogin_marginRight"
+                android:src="@drawable/navigation_next_item"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout/dialog_register_master_degree.xml -->

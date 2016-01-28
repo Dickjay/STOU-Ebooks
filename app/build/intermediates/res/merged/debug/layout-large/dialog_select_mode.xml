@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <com.porar.ebooks.widget.AdjustableImageView
+                android:id="@+id/back_imageview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:padding="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/navigation_back" />
+
+            <com.porar.ebooks.widget.AdjustableImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:scaleType="centerCrop"/>
+
+            <com.porar.ebooks.widget.AdjustableImageView
+                android:id="@+id/logo_imageview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nav_logo_new2x" />
+
+            <com.porar.ebooks.widget.AdjustableImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:scaleType="centerCrop" />
+
+            <com.porar.ebooks.widget.AdjustableImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/linear_bachalor_degree"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textview_bachalor_degree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.9"
+                android:text="@string/bechalor_degree"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/normal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_action_chevron_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_master_degree"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textview_master_degree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.9"
+                android:text="@string/tab_master_degree"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/normal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_action_chevron_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_other_book"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textview_other_book"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.9"
+                android:text="@string/tab_public_user"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/normal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_action_chevron_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_intro"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textview_intro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.9"
+                android:text="@string/tab_intro"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/normal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_action_chevron_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_contact"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textview_contact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.9"
+                android:text="@string/tab_contact"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/normal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_action_chevron_right" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-large/dialog_select_mode.xml -->

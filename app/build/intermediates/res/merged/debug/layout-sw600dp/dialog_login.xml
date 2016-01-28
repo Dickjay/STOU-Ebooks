@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_default_ss"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/login_textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialoglogin_title_height"
+        android:background="@color/green_stou"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="\tเข้าสู่ระบบ"
+        android:textColor="@color/WhiteBackground"
+        android:textSize="37dp" />
+
+    <TextView
+        android:id="@+id/login_textview_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialoglogin_marginTop"
+        android:gravity="center_horizontal"
+        android:text="@string/label_login_line1"
+        android:textColor="@color/tabDark"
+        android:textSize="27dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/login_textview_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="0.3"
+                android:text="อีเมล์"
+                android:textColor="@color/tabDark"
+                android:textSize="32dp" />
+
+            <EditText
+                android:id="@+id/login_edit_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@drawable/box_editext"
+                android:hint=""
+                android:minEms="15"
+                android:textSize="32dp">
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/login_textview_pass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="รหัสผ่าน"
+                android:gravity="center_horizontal"
+                android:textColor="@color/tabDark"
+                android:textSize="32dp" />
+
+            <EditText
+                android:id="@+id/login_edit_pass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@drawable/box_editext"
+                android:hint=""
+                android:inputType="textPassword"
+                android:textSize="32dp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialoglogin_edittext_marginBottom"
+        android:layout_marginTop="@dimen/dialoglogin_edittext_marginTop"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/login_btn_cancel"
+            android:layout_width="@dimen/dialoglogin_btn_width"
+            android:layout_height="@dimen/dialoglogin_btn_height"
+            android:background="@drawable/btn_bg_dark"
+            android:text="ยกเลิก"
+            android:textColor="@color/WhiteBackground"
+            android:textSize="27dp" />
+
+        <Button
+            android:id="@+id/login_btn_login"
+            android:layout_width="@dimen/dialoglogin_btn_width"
+            android:layout_height="@dimen/dialoglogin_btn_height"
+            android:layout_marginLeft="@dimen/dialoglogin_marginRight"
+            android:background="@drawable/btn_bg_dark"
+            android:text="เข้าสู่ระบบ"
+            android:textColor="@color/WhiteBackground"
+            android:textSize="27dp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-sw600dp/dialog_login.xml -->

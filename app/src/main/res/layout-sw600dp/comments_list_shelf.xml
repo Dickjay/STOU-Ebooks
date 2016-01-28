@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/liLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical" >
+
+                <WebView
+                    android:id="@+id/webView_comment_detail"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/liRight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/liLeft"
+            android:layout_weight="1.5"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearRatings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RatingBar
+                    android:id="@+id/Rating_commemt_detail"
+                    style="@style/customRatingBar24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:paddingTop="5dp"
+                    android:rating="0.0"
+                    android:stepSize="0.5" />
+
+                <TextView
+                    android:id="@+id/tv_comment_datetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="datetime"
+                    android:textColor="@color/tabDark"
+                    android:textSize="@dimen/normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearDetail"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/linearRatings"
+                android:background="@drawable/stou_frame"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <ScrollView
+                    android:id="@+id/scrollView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/Tab_Margin_Width" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:id="@+id/tv_comment_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Comment"
+                            android:textColor="@color/tabDark"
+                            android:textSize="@dimen/normal" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearName"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/linearDetail"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/stou_frame"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_comment_name"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:text="Name"
+                    android:textColor="@color/tabDark"
+                    android:textSize="@dimen/normal" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

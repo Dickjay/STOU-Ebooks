@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/profile_img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/com_facebook_close" />
+
+    <LinearLayout
+        android:id="@+id/profile_linear_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dialoglogin_padding" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/profile_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="fristname"
+                            android:textColor="@color/WhiteBackground"
+                            android:textSize="@dimen/big" />
+
+                        <TextView
+                            android:id="@+id/profile_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="email"
+                            android:textColor="@color/WhiteBackground"
+                            android:textSize="@dimen/normal" />
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/dialoglogin_padding"
+                            android:layout_weight="1" >
+
+                            <TableRow
+                                android:id="@+id/tableRow1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/profile_txt_ebook1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:minWidth="@dimen/dialoglogin_btn_width"
+                                    android:text="ebooks :"
+                                    android:textColor="@color/WhiteBackground"
+                                    android:textSize="@dimen/normal" />
+
+                                <TextView
+                                    android:id="@+id/profile_txt_ebook2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="@color/WhiteBackground"
+                                    android:textSize="@dimen/normal" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tableRow2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/profile_txt_favorite1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Favorites :"
+                                    android:textColor="@color/WhiteBackground"
+                                    android:textSize="@dimen/normal" />
+
+                                <TextView
+                                    android:id="@+id/profile_txt_favorite2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="@color/WhiteBackground"
+                                    android:textSize="@dimen/normal" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tableRow3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/profile_txt_Total1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Total :"
+                                    android:textColor="@color/WhiteBackground"
+                                    android:textSize="@dimen/normal" />
+
+                                <TextView
+                                    android:id="@+id/profile_txt_Total2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="@color/WhiteBackground"
+                                    android:textSize="@dimen/normal" />
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dialoglogin_edittext_marginTop"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/profile_img_profile"
+                            android:layout_width="@dimen/dialoglogin_imaprofile"
+                            android:layout_height="@dimen/dialoglogin_imaprofile"
+                            android:layout_gravity="right"
+                            android:src="@drawable/icon_user100" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" >
+
+                            <Button
+                                android:id="@+id/profile_btn_signout"
+                                android:layout_width="@dimen/dialoglogin_btn_width"
+                                android:layout_height="@dimen/dialoglogin_btn_height"
+                                android:layout_gravity="bottom"
+                                android:background="@drawable/orange_button"
+                                android:text="ออกจากระบบ" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout/dialog_profilephone.xml -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="smaller">11dp</dimen>
+    <dimen name="small">15dp</dimen>
+    <dimen name="normal">20dp</dimen>
+    <dimen name="big">25dp</dimen>
+    <dimen name="big_title">30dp</dimen>
+
+    <string name="size_pointer">15</string>
+    <string name="dialog_marginright">48</string>
+
+</resources>

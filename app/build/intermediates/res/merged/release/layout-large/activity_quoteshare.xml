@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/quoteshare_rt_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/quoteshare_rt_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/WhiteBackground"
+            android:padding="@dimen/detailpublisher_marginLeft" >
+
+            <Button
+                android:id="@+id/quoteshare_btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/detailpublisher_marginLeft"
+                android:background="@drawable/transparent"
+                android:text="Back"
+                android:textColor="@drawable/green"
+                android:textSize="@dimen/big_title"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/quoteshare_btn_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/detailpublisher_marginRight"
+                android:background="@drawable/transparent"
+                android:text="Share"
+                android:textColor="@drawable/green"
+                android:textSize="@dimen/big_title"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/quoteshare_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="EDIT"
+                android:textColor="@color/tabDark"
+                android:textSize="@dimen/big_title"
+                android:textStyle="bold"
+                android:typeface="normal" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/quoteshare_rt_imagecrop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/quoteshare_imag_imagecrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/quoteshare_rt_ception"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#d8ddde" >
+
+                    <LinearLayout
+                        android:id="@+id/quoteshare_linear_ception"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/quote_width_name"
+                        android:layout_marginTop="@dimen/dialoglogin_edittext_marginTop"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dialoglogin_marginTop" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="@dimen/img_ebook_cover_width"
+                            android:layout_height="@dimen/img_ebook_cover_width"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/com_facebook_profile_default_icon" />
+
+                        <EditText
+                            android:id="@+id/quoteshare_edit_caption"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dialoglogin_marginTop"
+                            android:background="@color/WhiteBackground"
+                            android:gravity="top|left"
+                            android:hint="Add Caption"
+                            android:inputType="text|textMultiLine"
+                            android:padding="@dimen/dialoglogin_marginTop"
+                            android:textColor="@color/tabDark"
+                            android:textSize="@dimen/small" >
+
+                            <requestFocus />
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/quoteshare_linear_share"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/quoteshare_linear_ception"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/quoteshare_linear_share_fb"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/linear_bg_share"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/dialoglogin_marginTop" >
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="@dimen/icon_head"
+                                android:layout_height="@dimen/icon_head"
+                                android:src="@drawable/ebooks_share_fb" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dialoglogin_marginTop"
+                                android:text="Facebook"
+                                android:textColor="#0073bf"
+                                android:textSize="@dimen/normal"
+                                android:typeface="normal" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#77000000" />
+
+                        <LinearLayout
+                            android:id="@+id/quoteshare_linear_share_ig"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/linear_bg_share"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/dialoglogin_marginTop" >
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="@dimen/icon_head"
+                                android:layout_height="@dimen/icon_head"
+                                android:src="@drawable/ebooks_share_ig" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dialoglogin_marginTop"
+                                android:text="Instagram"
+                                android:textColor="#a17a5d"
+                                android:textSize="@dimen/normal"
+                                android:typeface="normal" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ImageView02"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#77000000" />
+
+                        <LinearLayout
+                            android:id="@+id/quoteshare_linear_share_tw"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/linear_bg_share"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/dialoglogin_marginTop" >
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="@dimen/icon_head"
+                                android:layout_height="@dimen/icon_head"
+                                android:src="@drawable/ebooks_share_tw" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dialoglogin_marginTop"
+                                android:text="Twitter"
+                                android:textColor="#00c9df"
+                                android:textSize="@dimen/normal"
+                                android:typeface="normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/quoteshare_linear_ception"
+                        android:background="#77000000" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-large/activity_quoteshare.xml -->

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag1_tableRow1colunm1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row1colunm1"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row1colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row1colunm1"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:lines="2"
+                                android:text="40 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row1colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row1colunm1" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row1colunm1"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row1colunm1"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row1colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row1colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row1colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row1colunm1"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row1colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag2_tableRow1colunm2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row1colunm2"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row1colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row1colunm2"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:gravity="left"
+                                android:lines="2"
+                                android:text="400 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row1colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row1colunm2" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row1colunm2"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row1colunm2"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row1colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row1colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row1colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row1colunm2"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row1colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/table_publisher_verticalSpacing" >
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag1_tableRow2colunm1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row2colunm1"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row2colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row2colunm1"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:gravity="left"
+                                android:lines="2"
+                                android:text="400 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row2colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row2colunm1" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row2colunm1"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row2colunm1"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row2colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row2colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row2colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row2colunm1"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row2colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag2_tableRow2colunm2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row2colunm2"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row2colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row2colunm2"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:gravity="left"
+                                android:lines="2"
+                                android:text="400 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row2colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row2colunm2" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row2colunm2"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row2colunm2"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row2colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row2colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row2colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row2colunm2"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row2colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/table_publisher_verticalSpacing" >
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag1_tableRow3colunm1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row3colunm1"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row3colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row3colunm1"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:gravity="left"
+                                android:lines="2"
+                                android:text="400 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row3colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row3colunm1" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row3colunm1"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row3colunm1"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row3colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row3colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row3colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row3colunm1"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row3colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag2_tableRow3colunm2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row3colunm2"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row3colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row3colunm2"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:gravity="left"
+                                android:lines="2"
+                                android:text="400 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row3colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row3colunm2" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row3colunm2"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row3colunm2"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row3colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row3colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row3colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row3colunm2"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row3colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/table_publisher_verticalSpacing" >
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag1_tableRow4colunm1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row4colunm1"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row4colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row4colunm1"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:gravity="left"
+                                android:lines="2"
+                                android:text="400 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row4colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row4colunm1" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row4colunm1"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row4colunm1"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row4colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row4colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row4colunm1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row4colunm1"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row4colunm1"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/img_publisher_imag2_tableRow4colunm2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <RelativeLayout
+                            android:id="@+id/table_publisher_bg_row4colunm2"
+                            android:layout_width="@dimen/table_publisher_width"
+                            android:layout_height="@dimen/table_publisher_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_pub_shelf"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp" >
+
+                            <TextView
+                                android:id="@+id/table_text_publishername_row4colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisherfan_row4colunm2"
+                                android:layout_width="@dimen/table_text_publisherfan_width"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/table_text_publisherfan_padding_right"
+                                android:gravity="left"
+                                android:lines="2"
+                                android:text="400 \n fan"
+                                android:textColor="@color/WhiteBackground"
+                                android:textSize="@dimen/small" />
+
+                            <RelativeLayout
+                                android:id="@+id/table_rt_publisherimg_row4colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_text_publishername_row4colunm2" >
+
+                                <ImageView
+                                    android:id="@+id/table_img_bg_publisher_row4colunm2"
+                                    android:layout_width="@dimen/table_img_bg_publisher_width"
+                                    android:layout_height="@dimen/table_img_bg_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/bg_publisher_logo" />
+
+                                <ImageView
+                                    android:id="@+id/table_img_publisher_row4colunm2"
+                                    android:layout_width="@dimen/table_img_publisher_width"
+                                    android:layout_height="@dimen/table_img_publisher_height"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="centerInside"
+                                    android:src="@drawable/cover_not_available2x" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/table_text_publisherdetail_row4colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/table_rt_publisherimg_row4colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="@string/app_name"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+
+                            <TextView
+                                android:id="@+id/table_text_publisher_counteBooks_row4colunm2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/table_rt_publisherimg_row4colunm2"
+                                android:layout_toRightOf="@+id/table_rt_publisherimg_row4colunm2"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="total 2 \n ebook"
+                                android:textColor="@color/tabDark"
+                                android:textSize="@dimen/small" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio_WorkSpace/Workspace%20STOU/PROJECT-STOU%20-%20VersionCode-16and%20VersionName-2.1.3/app/src/main/res/layout-xlarge/layout_tableview_publisher.xml -->
